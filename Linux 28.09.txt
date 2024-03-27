@@ -1,0 +1,12 @@
+#!/bin/bash
+mkdir test
+/bin ls -a | head -10 > test/output.txt
+mkdir /tmp
+/tmp for run in {b..f}
+do
+touch $run
+done
+df -h | head -2 | tail-1 | awk '{print $5}' >> /tmp/f
+mkdir null
+mv /tmp b c d e  /null
+mv /test/output.txt /null/done.txt
